@@ -41,7 +41,7 @@ const App = () => {
           <img className='pict' src='./pict.png'></img>
         </div>
         <input 
-          placeholder='Cari Pahlawan....' 
+          placeholder='Cari Pahlawan ....' 
           className='Hero-search'
           list='data'
           onChange={({ target }) => search(target.value)}
